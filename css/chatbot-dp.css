@@ -55,19 +55,25 @@
 .chat-box-header,
 .chat-msg.bot>.msg-avatar {
     /*red*/
-    /*background-image: linear-gradient( to top right, rgba(246, 72, 72, 1), rgba(250, 65, 95, 1));*/
+    background-image: linear-gradient( to top right, rgba(246, 72, 72, 1), rgba(250, 65, 95, 1));
     /*pink-blue*/
     /*background-image: linear-gradient( to top left, rgba(252, 123, 123, 1), rgba(166, 193, 255, 1));*/
     /*pink-red*/
-    background-image: linear-gradient( to bottom right, rgba(240, 149, 255, 1), rgba(246, 72, 72, 1));
+    /* background-image: linear-gradient( to bottom right, rgba(240, 149, 255, 1), rgba(246, 72, 72, 1));*/
 }
 
 .options-btn {
-    border: 1px solid rgba(246, 72, 72, 1);
+    /* border: 1px solid rgba(246, 72, 72, 1);*/
+    border: 1px solid #e74c3c;
 }
 
 .spiner>* {
-    background: rgba(246, 72, 72, 1);
+    /* background: rgba(246, 72, 72, 1);*/
+    background: #e74c3c;
+}
+
+.chat-submit i {
+    color: #e74c3c;
 }
 
 
@@ -81,6 +87,7 @@
 /* ---------- chat-bot-button to open chat---------- */
 
 #chat-circle {
+    text-align: center;
     position: fixed;
     bottom: 50px;
     /*right: 50px;*/
@@ -267,10 +274,12 @@
     color: #888;
     border-radius: 3px;
     overflow: hidden;
+    font-size: 15px;
 }
 
 .chat-input-box>form {
     margin-bottom: 0;
+    position: relative;
 }
 
 .chat-input__text::-webkit-input-placeholder {
@@ -295,13 +304,11 @@
 
 .chat-submit {
     position: absolute;
-    bottom: 27px;
+    bottom: 6px;
     right: 10px;
     background: transparent;
     box-shadow: none;
     border: none;
-    border-radius: 50%;
-    color: rgba(250, 65, 95, 0.99);
     width: 35px;
     height: 35px;
 }
@@ -359,6 +366,7 @@
     position: relative;
     margin-bottom: 20px;
     border-radius: 3px;
+    font-size: 15px;
 }
 
 .options-btn {
@@ -371,6 +379,7 @@
     margin-bottom: 20px;
     border-radius: 3px;
     text-align: center;
+    font-size: 15px;
 }
 
 .chat-msg {
