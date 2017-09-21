@@ -2,14 +2,14 @@
 $(function () {
     const testing = false;
 
-    const url = "https://prodbm-dot-deeppixel-corebot.appspot.com";
-    /* const url = "https://stagingaz-dot-deeppixel-corebot.appspot.com";*/
+    /*const url = "https://prodbm-dot-deeppixel-corebot.appspot.com";*/
+     const url = "https://stagingaz-dot-deeppixel-corebot.appspot.com";
     //const url = "";
     const serversecret = "XIV97UQ8HCFP718X";
     const sessionkey = generateSessionKey();
     /* const sessionkey = "nadia";*/
-    const DPID = "9cb6c6b8-1055-4417-b5c7-e19aaae95ff4";
-    /*const DPID = "6c5358c4-beb8-4669-9749-5bcfb6c4e894";*/
+    /*const DPID = "9cb6c6b8-1055-4417-b5c7-e19aaae95ff4";*/
+    const DPID = "6c5358c4-beb8-4669-9749-5bcfb6c4e894";
 
 
     const build = testing ? "dist" : "dist";
